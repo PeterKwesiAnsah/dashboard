@@ -1,0 +1,20 @@
+.widget {
+  height: 85px;
+  width: 100%;
+  max-width: 211px;
+  padding: 14px 20px;
+  border-radius: 3.87588px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.05);
+  padding-top: 5px;
+  text-align: left;
+}
+
+.widget > * {
+  white-space: nowrap;
+}
+
+/* .test{
+    height: 30px;
+} */
