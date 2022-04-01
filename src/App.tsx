@@ -22,8 +22,8 @@ function App() {
   return (
     <div className="App">
       <div className="widget--row">
-        {data.map((widget) => (
-          <Widget key={widget} {...widget}></Widget>
+        {data.map((widget, index) => (
+          <Widget key={index} {...widget}></Widget>
         ))}
       </div>
       <OrdersChart></OrdersChart>

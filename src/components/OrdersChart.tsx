@@ -23,6 +23,7 @@ export const OrdersChart = () => {
   };
 
   React.useEffect(() => {
+    //@ts-ignore
     const myChart = new Chart(canvasRef.current!, config);
   }, []);
   return (
